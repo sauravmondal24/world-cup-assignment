@@ -13,15 +13,11 @@ Upcoming Match page CSS
 .blog-tab-list .match-btn {
 	background-color: var(--blue-color);
 }
+
 .blog-tab-list .match-btn a {
 	color: var(--white-color);
 }
-.blog-tab-list #active {
-	background-color: var(--white-color);
-}
-.blog-tab-list #active a {
-	color: var(--black-color);
-}
+
 .match-list {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -29,12 +25,13 @@ Upcoming Match page CSS
 }
 
 .match-item {
-	border: 1px solid #e8e8e8;
 	text-align: center;
 	padding: 30px 20px 30px 20px;
-	border-radius: 10px;
 	height: 150px;
 	align-items: center;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
 }
 .flag-pic {
 	display: flex;
@@ -67,3 +64,6 @@ Upcoming Match page CSS
 	color: #4d4d4d;
 	padding: 10px 0;
 }
+/*********************************
+          project end
+*********************************/

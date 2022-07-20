@@ -1,5 +1,5 @@
 /*********************
- Default setup 
+    Default setup 
  **********************/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;500&display=swap');
@@ -30,7 +30,9 @@ img {
 	margin: 0 auto;
 }
 
-/* Banner section start */
+/************************ 
+   Banner section start 
+*************************/
 
 .banner-section {
 	margin: 50px 0 100px 0;
@@ -77,11 +79,12 @@ img {
 }
 .banner-image img {
 	width: 100%;
-	/* height: auto; */
 	height: 600px;
 	margin-top: 45px;
 }
-/* All blog list section Start */
+
+/*******************************
+ All blog list section Start *******************************/
 
 .all-blog {
 	display: grid;
@@ -106,6 +109,7 @@ img {
 	border-radius: 10px;
 	transition: 1s;
 	border: none;
+	cursor: pointer;
 }
 .blog-tab-list button a {
 	font-size: 16px;
@@ -139,6 +143,7 @@ img {
 	background-color: var(--white-color);
 	border: 1px solid var(--black-color);
 	border-radius: 3px;
+	cursor: pointer;
 }
 .blog-item button a {
 	font-size: 16px;
@@ -163,7 +168,9 @@ img {
 	display: flex;
 }
 
-/* Footer Section start */
+/* -----------------------
+    Footer Section start 
+---------------------------*/
 
 footer {
 	background-color: var(--black-color);
@@ -237,3 +244,7 @@ footer hr {
 .tab-button button:hover {
 	background-color: #dd0000;
 }
+
+/*********************************
+          project end
+*********************************/

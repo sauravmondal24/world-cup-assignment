@@ -90,7 +90,7 @@ Mobile devise Responsive
 	}
 
 	/***********************
-	 Match page responsive
+	 Match page responsive code
 	************************/
 	.match-item {
 		width: 85%;
@@ -102,6 +102,7 @@ Mobile devise Responsive
 		gap: 24px;
 	}
 }
+
 /************************
 
 Tablet devise Responsive
@@ -150,7 +151,9 @@ Tablet devise Responsive
 		height: 370px;
 		margin-top: 60px;
 	}
+
 	/* blog section start */
+
 	.all-blog {
 		grid-template-columns: 1fr;
 	}
