@@ -33,10 +33,10 @@ Mobile devise Responsive
 	}
 
 	.banner-title h1 {
-		font-size: 22px;
+		font-size: 27px;
 		line-height: 33px;
 		padding-top: 20px;
-		padding: 20px 30px 5px 30px;
+		padding: 25px 30px 5px 30px;
 	}
 	.banner-title p {
 		font-size: 14px;
@@ -48,11 +48,14 @@ Mobile devise Responsive
 		margin-top: 10px;
 		padding: 8px 12px;
 	}
+	.banner-title button a {
+		font-size: 16px;
+	}
 
 	.banner-image img {
 		width: 233px;
 		height: 245px;
-		margin-top: 12px;
+		margin-top: 10px;
 	}
 	.all-blog {
 		display: grid;
@@ -113,7 +116,6 @@ Tablet devise Responsive
 	.container {
 		width: 734px;
 		margin: 0 auto;
-		/* border: 1px solid red; */
 	}
 	.banner-section {
 		margin: 50px 0 50px 0;
