@@ -37,11 +37,12 @@ img {
 }
 .banner-item {
 	background-color: var(--black-color);
+	height: 646px;
+	width: 1000px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	padding: 0 100px;
 	align-items: center;
-	justify-content: center;
 	border-radius: 20px;
 }
 .banner-title h1 {
@@ -76,9 +77,9 @@ img {
 }
 .banner-image img {
 	width: 100%;
-	height: auto;
-	margin-top: 30px;
-	margin-bottom: 0;
+	/* height: auto; */
+	height: 600px;
+	margin-top: 45px;
 }
 /* All blog list section Start */
 
@@ -104,6 +105,7 @@ img {
 	height: 50px;
 	border-radius: 10px;
 	transition: 1s;
+	border: none;
 }
 .blog-tab-list button a {
 	font-size: 16px;
@@ -134,6 +136,9 @@ img {
 	width: 100px;
 	height: 32px;
 	margin: 20px;
+	background-color: var(--white-color);
+	border: 1px solid var(--black-color);
+	border-radius: 3px;
 }
 .blog-item button a {
 	font-size: 16px;
@@ -180,7 +185,7 @@ footer hr {
 }
 .footer-menu ul li {
 	display: inline-block;
-	padding: 5px 20px;
+	padding: 10px 20px;
 }
 .footer-menu ul li a {
 	color: var(--white-color);
@@ -203,4 +208,32 @@ footer hr {
 }
 .social-icon ul li a:hover {
 	color: var(--blue-color);
+}
+/* Footer section end */
+
+/******************
+     Tab-button 
+ ******************/
+
+.tab-button {
+	display: none;
+	text-align: center;
+}
+
+.tab-button button {
+	margin-top: 50px;
+	padding: 10px 25px;
+	border-radius: 5px;
+	background-color: var(--blue-color);
+	border: none;
+	transition: 1s;
+}
+.tab-button button a {
+	font-size: 20px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: var(--white-color);
+}
+.tab-button button:hover {
+	background-color: #dd0000;
 }

@@ -1,0 +1,69 @@
+/****************************
+Upcoming Match page CSS
+
+*****************************/
+:root {
+	--primary-color: gray;
+	--black-color: #161616;
+	--blue-color: #370df3;
+	--white-color: #fff;
+	--Pink-color: #dd0000;
+}
+
+.blog-tab-list .match-btn {
+	background-color: var(--blue-color);
+}
+.blog-tab-list .match-btn a {
+	color: var(--white-color);
+}
+.blog-tab-list #active {
+	background-color: var(--white-color);
+}
+.blog-tab-list #active a {
+	color: var(--black-color);
+}
+.match-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+
+.match-item {
+	border: 1px solid #e8e8e8;
+	text-align: center;
+	padding: 30px 20px 30px 20px;
+	border-radius: 10px;
+	height: 150px;
+	align-items: center;
+}
+.flag-pic {
+	display: flex;
+	justify-content: space-between;
+}
+.match-item .flag-pic img {
+	width: 90px;
+	height: 50px;
+	margin: 7px;
+}
+.match-item .flag-pic h3 {
+	transform: translate(5px 10px);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	color: var(--black-color);
+	margin-top: 20px;
+}
+.match-item h2 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+	color: var(--black-color);
+	padding: 10px 0;
+}
+.match-item p {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #4d4d4d;
+	padding: 10px 0;
+}
